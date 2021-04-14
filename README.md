@@ -9,6 +9,7 @@
 |   | **Core Python** |
 |3  | [First Class functions in Python](#first-class-functions-in-python)|
 |4  | [Python Anonymous/Lambda Function](#python-anonymous/lambda-function)|
+|5  | [Decorators in Python](#decorators-in-python)
 |   | **Python OOP** |
 
 
@@ -52,3 +53,10 @@
     
     **[⬆ Back to Top](#table-of-contents)**
     
+5. ### Decorators in Python?
+
+    A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate. 
+    
+    [More details (Datacamp)...](https://www.datacamp.com/community/tutorials/decorators-python) | [More details (GeeksforGeeks)...](https://www.geeksforgeeks.org/decorators-in-python/)
+    
+    **[⬆ Back to Top](#table-of-contents)**
