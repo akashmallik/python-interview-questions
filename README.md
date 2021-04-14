@@ -11,6 +11,7 @@
 |4  | [Python Anonymous/Lambda Function](#python-anonymous/lambda-function)|
 |5  | [Decorators in Python](#decorators-in-python)
 |6  | [Generators in Python](#generators-in-Python)
+|7  | [Difference between == and is operator in Python](#difference-between-==-and-is-operator-in-Python)
 |   | **Python OOP** |
 
 
@@ -66,5 +67,13 @@
 6. ### Generators in Python?
 
     Python generator functions are a special kind of function that return a lazy iterator. These are objects that you can loop over like a list. However, unlike lists, lazy iterators do not store their contents in memory. [More details...](https://realpython.com/introduction-to-python-generators/)
+    
+    **[⬆ Back to Top](#table-of-contents)**
+
+
+
+7. ### Difference between == and is operator in Python?
+
+    The Equality operator (==) compares the values of both the operands and checks for value equality. Whereas the ‘is’ operator checks whether both the operands refer to the same object or not. [More details...](https://www.geeksforgeeks.org/difference-operator-python/)
     
     **[⬆ Back to Top](#table-of-contents)**
