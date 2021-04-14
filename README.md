@@ -10,6 +10,7 @@
 |3  | [First Class functions in Python](#first-class-functions-in-python)|
 |4  | [Python Anonymous/Lambda Function](#python-anonymous/lambda-function)|
 |5  | [Decorators in Python](#decorators-in-python)
+|6  | [Generators in Python](#generators-in-Python)
 |   | **Python OOP** |
 
 
@@ -58,5 +59,12 @@
     A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate. 
     
     [More details (Datacamp)...](https://www.datacamp.com/community/tutorials/decorators-python) | [More details (GeeksforGeeks)...](https://www.geeksforgeeks.org/decorators-in-python/)
+    
+    **[⬆ Back to Top](#table-of-contents)**
+
+
+6. ### Generators in Python?
+
+    Python generator functions are a special kind of function that return a lazy iterator. These are objects that you can loop over like a list. However, unlike lists, lazy iterators do not store their contents in memory. [More details...](https://realpython.com/introduction-to-python-generators/)
     
     **[⬆ Back to Top](#table-of-contents)**
