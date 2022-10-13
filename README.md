@@ -13,6 +13,7 @@
 |6  | [Generators in Python](#generators-in-Python)
 |7  | [Difference between == and is operator in Python](#difference-between-==-and-is-operator-in-Python)
 |8  | [Python Shallow Copy and Deep Copy?](#python-shallow-copy-and-deep-copy)
+|9  | [How are arguments passed by value or by reference in Python?](how-are-arguments-passed-by-value-or-by-reference-in-python)
 |   | **Python OOP** |
 |   | **Others** |
 |   | [Monkey Patching in Python (Dynamic Behavior)](#monkey-patching-in-python-dynamic-behavior) |
@@ -104,3 +105,25 @@
     
     **[⬆ Back to Top](#table-of-contents)**
 
+
+9. ### How are arguments passed by value or by reference in Python?
+    In python
+
+    ``` python
+    s = "abc"
+    l = ["x", "y", "z"]
+
+    def print_id(obj): 
+        print(id(obj))
+
+    print(s) 
+    # >>> 10
+    print_id(s)
+    # >>> 12
+
+    print(l)
+    # >>> 5
+    print_id(s)
+    # >>> 5 
+
+    ```
