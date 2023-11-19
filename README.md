@@ -13,6 +13,7 @@
 |6  | [Generators in Python](#generators-in-Python)
 |7  | [Difference between == and is operator in Python](#difference-between-==-and-is-operator-in-Python)
 |8  | [Python Shallow Copy and Deep Copy?](#python-shallow-copy-and-deep-copy)
+|10 | [Context manager in python](#context-manager-in-python)
 |   | **Python OOP** |
 |   | **Others** |
 |   | [Monkey Patching in Python (Dynamic Behavior)](#monkey-patching-in-python-dynamic-behavior) |
@@ -104,3 +105,11 @@
     
     **[⬆ Back to Top](#table-of-contents)**
 
+
+10. ### Context manager in python
+    Context manager is used to set up and tear down resources, such as file handling or database connections, 
+    in a clean and controlled manner.
+
+    [More details...](https://www.geeksforgeeks.org/context-manager-in-python/)
+    
+    **[⬆ Back to Top](#table-of-contents)**
